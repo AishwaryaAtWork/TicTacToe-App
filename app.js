@@ -1,6 +1,6 @@
 console.log("hello");
-let ting = new Audio('src/Ting.mp3');
-let over = new Audio('src/gameOver.wav');
+let resetMusic = new Audio('src/reset.wav');
+let over = new Audio('src/gameOver.mp3');
 let audioTurn = new Audio('src/turn.wav');
 let turn = "X";
 let gameOver = false;
@@ -53,7 +53,8 @@ reset.addEventListener('click', () => {
     let boxTexts = document.querySelectorAll('.boxText');
     Array.from(boxTexts).forEach(item => {
         item.innerText = '';
-        ting.play();
+        over.pause();
+        resetMusic.play();
     });
     turn = "X";
     gameOver = false;
