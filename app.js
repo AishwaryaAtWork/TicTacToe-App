@@ -1,4 +1,4 @@
-console.log("hello");
+// Music files added
 let resetMusic = new Audio('src/reset.wav');
 let over = new Audio('src/gameOver.mp3');
 let audioTurn = new Audio('src/turn.wav');
