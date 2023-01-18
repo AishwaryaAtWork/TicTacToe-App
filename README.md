@@ -7,8 +7,11 @@ It's a fun gaming web-app build to reduce your boredom.
 
 ## Build with
 HTML , CSS and Vanilla Javascript.
+
+
 ## Screenshots
 
+![Screenshot (548)](https://user-images.githubusercontent.com/109826222/213200703-bb9db5a9-2a8e-40a8-bc6e-a450125943a3.png)
 
 
 
@@ -28,7 +31,6 @@ Link - https://github.com/AishwaryaAtWork/TicTacToe-App
 
 ## Acknowledgements
 
- - [Bootstarp](https://getbootstrap.com/)
  - [Google Fonts](https://fonts.google.com/)
  - [Readme.so](https://readme.so/)
  - [Vercel](https://vercel.com/)
